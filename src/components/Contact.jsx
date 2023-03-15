@@ -68,7 +68,7 @@ export default function App() {
                 </button>
               </div>
               <div className="p-2 w-full pt-8 mt-8 border-t border-gray-200 text-center">
-                <a className="text-indigo-500" href="#">Mkpdxb22@gmail.com</a>
+              <span> Company Email :</span><a className="text-indigo-500" href="#">Mkpdxb22@gmail.com</a>
                 
                 
               </div>
