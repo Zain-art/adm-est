@@ -6,30 +6,44 @@ export default function App() {
   return (
     <div>
       <section name='contact' className="text-gray-700 body-font relative">
-        <div className="container px-5 py-24 mx-auto">
-          <div className="flex flex-col text-center w-full mb-12">
-            <h1 className="sm:text-3xl text-2xl font-medium title-font mb-4 text-gray-900">
-              Contact Us
+        <div className="container px-5 py-12 mx-auto">
+          <div className="flex flex-col text-center w-full mb-12 ">
+            <h1 className="sm:text-2xl text-7xl font-bold title-font mb-0 text-gray-900">
+              Address
             </h1>
-            <p className="lg:w-2/3 mx-auto leading-relaxed text-base">
-              Whatever cardigan tote bag tumblr hexagon brooklyn asymmetrical
-              gentrify.
-            </p>
+           
           </div>
           <div className="lg:w-1/2 md:w-2/3 mx-auto">
             <div className="flex flex-wrap -m-2">
               <div className="p-2 w-1/2">
                 <div className="relative">
                   <label for="number" className="leading-7 text-sm text-gray-600">
-                    Mobile No
+                    Phone No
                   </label>
                   <input
                     type="text"
                     id="name"
                     name="name"
-                    className="w-full bg-gray-100 rounded border border-gray-300 focus:border-indigo-500 text-base outline-none text-gray-700 py-1 px-3 leading-8 transition-colors duration-200 ease-in-out"
+                    value='0585630402'
+                    readOnly
+                    className="w-full bg-gray-100 rounded border-none  py-1 px-3 leading-8 transition-colors "
                   />
                 </div>
+                
+                <div className="relative">
+                  <label for="number" className="leading-7 text-sm text-gray-600">
+                    Fax No
+                  </label>
+                  <input
+                    type="text"
+                    id="name"
+                    name="name"
+                    value='0'
+                    readOnly
+                    className="w-full bg-gray-100 rounded border-none  py-1 px-3 leading-8 transition-colors "
+                  />
+                </div>
+                
               </div>
               <div className="p-2 w-1/2">
                 <div className="relative">
@@ -43,35 +57,60 @@ export default function App() {
                     type="email"
                     id="email"
                     name="email"
+                    value='Mkpdxb22@gmail.com'
+                    readOnly
                     className="w-full bg-gray-100 rounded border border-gray-300 focus:border-indigo-500 text-base outline-none text-gray-700 py-1 px-3 leading-8 transition-colors duration-200 ease-in-out"
                   />
                 </div>
-              </div>
-              <div className="p-2 w-full">
                 <div className="relative">
-                  <label
-                    for="message"
-                    className="leading-7 text-sm text-gray-600"
-                  >
-                    Message
+                  <label for="number" className="leading-7 text-sm text-gray-600">
+                    Mobile No
                   </label>
-                  <textarea
-                    id="message"
-                    name="message"
-                    className="w-full bg-gray-100 rounded border border-gray-300 focus:border-indigo-500 h-32 text-base outline-none text-gray-700 py-1 px-3 resize-none leading-6 transition-colors duration-200 ease-in-out"
-                  ></textarea>
+                  <input
+                    type="text"
+                    id="name"
+                    name="name"
+                    value='0585630402'
+                    readOnly
+                    className="w-full bg-gray-100 rounded border-none  py-1 px-3 leading-8 transition-colors "
+                  />
                 </div>
+               
               </div>
-              <div className="p-2 w-full">
-                <button className="flex mx-auto text-white bg-indigo-500 border-0 py-2 px-8 focus:outline-none hover:bg-indigo-600 hover:text-white rounded text-lg">
-                  Button
-                </button>
-              </div>
-              <div className="p-2 w-full pt-8 mt-8 border-t border-gray-200 text-center">
+             <div className='p-2 w-1/2'>
+             <div className="relative">
+                  <label for="number" className="leading-7 text-sm text-gray-600">
+                    P.O.Box
+                  </label>
+                  <input
+                    type="text"
+                    id="name"
+                    name="name"
+                    value='0'
+                    readOnly
+                    className="w-full bg-gray-100 rounded border-none  py-1 px-3 leading-8 transition-colors "
+                  />
+                </div>
+                <div className="relative">
+                  <label for="number" className="leading-7 text-sm text-gray-600">
+                   Parcel ID
+                  </label>
+                  <input
+                    type="text"
+                    id="name"
+                    name="name"
+                    value='0'
+                    readOnly
+                    className="w-full bg-gray-100 rounded border-none  py-1 px-3 leading-8 transition-colors "
+                  />
+                </div>
+             </div>
+              
+              {/* <div className="p-2 w-full pt-8 mt-8 border-t border-gray-200 text-center">
               <span> Company Email :</span><a className="text-indigo-500" href="#">Mkpdxb22@gmail.com</a>
                 
                 
-              </div>
+              </div> */}
             </div>
           </div>
         </div>

@@ -6,7 +6,7 @@ import Navbar from './components/Navbar'
 import Contact from './components/Contact';
 import Pricing from './components/Pricing';
 import Support from './components/Support'
-
+import Address from './components/Address'
 import { BrowserRouter as Router,Route,Routes } from 'react-router-dom';
 function App() {
   return (
@@ -16,8 +16,9 @@ function App() {
       <About />
       <Support />
       <AllInOne />
-      <Pricing />
+     
       <Contact/>
+      
       <Footer />
     {/* <Router>
 

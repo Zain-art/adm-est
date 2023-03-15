@@ -5,23 +5,17 @@ const About = () => {
     <div name='about' className='w-full my-32'>
         <div className='max-w-[1240px] mx-auto'>
             <div className='text-center'>
-                <h2 className='text-5xl font-bold'>Trusted by developers across the world</h2>
-                <p className='text-3xl py-6 text-gray-500'>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Cumque asperiores earum placeat veritatis dignissimos itaque.</p>
+                <h1 className='text-3xl font-bold my-7'>What Are the Benefits of Social Media Marketing Services</h1>
+                <h6 className='text-xl text-gray-500'>AMD Social Media Marketing Agency provides social media marketing for small businesses, enterprises and multiple-location companies. No matter if you own a startup or a Fortune 500 company, our social media marketing experts can assist you with your campaign. Partner with us and let our social media marketing agency boost your brand visibility and integrity!.Does your business have the votes of confidence it needs from social media . </h6>
+                
             </div>
 
-            <div className='grid md:grid-cols-3 gap-1 px-2 text-center'>
+            <div className='grid md:grid-cols gap-1 px-2 text-center mt-8'>
                 <div className='border py-8 rounded-xl shadow-xl' >
-                    <p className='text-6xl font-bold text-indigo-600'>100%</p>
-                    <p className='text-gray-400 mt-2'>Completion</p>
+                    <p className='text-2xl font-bold text-indigo-600'>Growth partner to over 50 leading brands in Dubai, and other countries.</p>
+                   
                 </div>
-                <div  className='border py-8 rounded-xl shadow-xl' >
-                    <p className='text-6xl font-bold text-indigo-600'>24/7</p>
-                    <p className='text-gray-400 mt-2'>Delivery</p>
-                </div>
-                <div className='border py-8 rounded-xl shadow-xl' >
-                    <p className='text-6xl font-bold text-indigo-600'>100K</p>
-                    <p className='text-gray-400 mt-2'>Transactions</p>
-                </div>
+                
             </div>
         </div>
     </div>
