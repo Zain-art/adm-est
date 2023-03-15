@@ -18,12 +18,12 @@ const Navbar = () => {
             EDM EST.
           </h1>
           <ul className='hidden md:flex cursor-pointer'>
-          <li><Link to="/" smooth={true} duration={500}>Home</Link></li>
-          <li><Link to="/about" smooth={true} offset={-200} duration={500}>About us</Link></li>
-          <li><Link to="/support" smooth={true} offset={-50} duration={500}>Services</Link></li>
+          <li><Link to="home" smooth={true} duration={500}>Home</Link></li>
+          <li><Link to="about" smooth={true} offset={-200} duration={500}>About us</Link></li>
+          <li><Link to="support" smooth={true} offset={-50} duration={500}>Services</Link></li>
          
-          <li><Link to="/pricing" smooth={true} offset={-50} duration={500}>Pricing</Link></li>
-          <li><Link to="/contact" smooth={true} offset={-100} duration={500}>Contact us</Link></li>
+          <li><Link to="pricing" smooth={true} offset={-50} duration={500}>Pricing</Link></li>
+          <li><Link to="contact" smooth={true} offset={-100} duration={500}>Contact us</Link></li>
           </ul>
         </div>
         <div className='hidden md:flex pr-4'>
